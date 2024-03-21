@@ -1,11 +1,8 @@
-import { GenerateGradient } from "../utils/generateGradient";
-
-// Main purpose, share space, grow together, talk about anything, target
-// audience and challenge others to follow
+import { Section } from "../components/Section";
 
 export function LunchboxSessions() {
   return (
-    <section data-background-gradient={GenerateGradient()}>
+    <Section>
       <section>
         <h3>Lunchbox sessions</h3>
         <p className="fragment grow">grow together</p>
@@ -42,6 +39,6 @@ export function LunchboxSessions() {
         </p>
         <p>Attend a Lunchbox session 😎</p>
       </section>
-    </section>
+    </Section>
   );
 }

@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { GenerateGradient } from "../utils/generateGradient";
+import { Section } from "../components/Section";
 
 export function React() {
   const [clickCount, setClickCount] = useState(0);
   return (
-    <section data-auto-animate data-background-gradient={GenerateGradient()}>
+    <Section animated>
       <section>
         <h2>React</h2>
         <p>
@@ -68,6 +68,6 @@ export function React() {
           as ReactDOM.
         </p>
       </section>
-    </section>
+    </Section>
   );
 }

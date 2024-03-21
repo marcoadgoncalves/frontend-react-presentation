@@ -1,8 +1,8 @@
-import { GenerateGradient } from "../utils/generateGradient";
+import { Section } from "../components/Section";
 
 export function FrontEndTools() {
   return (
-    <section data-background-gradient={GenerateGradient()}>
+    <Section>
       <section>
         <h2>The FE engineer tools</h2>
         <p>
@@ -35,6 +35,6 @@ export function FrontEndTools() {
         <p>Allow continuous integration and continuous delivery/deployment</p>
         <p>Jenkins, TeamCity, Concourse, ... </p>
       </section>
-    </section>
+    </Section>
   );
 }

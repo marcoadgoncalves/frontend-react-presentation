@@ -1,11 +1,15 @@
-import { GenerateGradient } from "../utils/generateGradient";
+import { Section } from "../components/Section";
 
 export function Challenge() {
   return (
-    <section data-background-gradient={GenerateGradient()}>
+    <Section>
       <h2>Challenge</h2>
-      <p>Follow the README here</p>
       <p>Launch this React project locally and explore!</p>
-    </section>
+      <p data-markdown>
+        Click
+        [here](https://github.com/marcoadgoncalves/frontend-react-presentation)
+        to open the GitHub page
+      </p>
+    </Section>
   );
 }

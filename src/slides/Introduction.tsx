@@ -1,8 +1,8 @@
-import { GenerateGradient } from "../utils/generateGradient";
+import { Section } from "../components/Section";
 
 export function Introduction() {
   return (
-    <section data-background-gradient={GenerateGradient()}>
+    <Section>
       <h2>Hello there 👋</h2>
       <p className="fragment fade-in-then-semi-out">I'm Marco, 30 years old</p>
       <p className="fragment fade-in-then-semi-out">Born in Faro, Algarve</p>
@@ -14,6 +14,6 @@ export function Introduction() {
       <p className="fragment fade-in-then-semi-out">
         Frontend engineer at Sky since 2022
       </p>
-    </section>
+    </Section>
   );
 }
