@@ -51,10 +51,7 @@ function App() {
     };
   }, []);
 
-  // Add support documentation links
-  // Add learning paths links
-  // Add Udemy courses links
-
+  // <div style={{ height: "105.7rem" }}>
   return (
     <div style={{ height: "67.5rem" }}>
       <p id="header-logo">LYNXMIND</p>

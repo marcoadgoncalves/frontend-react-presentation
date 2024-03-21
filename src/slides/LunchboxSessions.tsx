@@ -11,7 +11,7 @@ export function LunchboxSessions() {
         <p className="fragment shrink">low effort</p>
       </section>
       <section>
-        <h3>Target</h3>
+        <h2>Target</h2>
         <p className="fragment custom blur">anyone</p>
         <aside className="notes">
           Note about how the presentation has anyone's knowledge into account 📝

@@ -48,8 +48,7 @@ export function React() {
           type="button"
           onClick={() => setClickCount((value) => value + 1)}
         >
-          {" "}
-          Click to add{" "}
+          Click to add
         </button>
       </section>
       <section>

@@ -11,29 +11,29 @@ export function FrontEndTools() {
         </p>
       </section>
       <section>
-        <h3>Integrated Development Environment</h3>
+        <h2>Integrated Development Environment</h2>
         <p>Visual Studio Code, WebStorm, ...</p>
       </section>
       <section>
-        <h3>Package Manager</h3>
+        <h2>Package Manager</h2>
         <p>Npm, Yarn, Pnpm, Bun, ...</p>
       </section>
       <section>
-        <h3>Bundlers</h3>
+        <h2>Bundlers</h2>
         <p>Webpack, SWC, Vite, ...</p>
       </section>
       <section>
-        <h3>Code repositories</h3>
+        <h2>Code repositories</h2>
         <p>GitHub, BitBucket, GitLab, ...</p>
       </section>
       <section>
-        <h3>TypeScript</h3>
-        <p>Doing what JavaScript can't do</p>
-      </section>
-      <section>
-        <h3>Pipelines</h3>
+        <h2>Pipelines</h2>
         <p>Allow continuous integration and continuous delivery/deployment</p>
         <p>Jenkins, TeamCity, Concourse, ... </p>
+      </section>
+      <section>
+        <h2>TypeScript</h2>
+        <p>Doing what JavaScript can't do</p>
       </section>
     </Section>
   );
