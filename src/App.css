@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Xirod";
+  src: local("Xirod"), url(./fonts/xirod.woff2) format("opentype");
+}
+
+.fragment.blur {
+  filter: blur(8px);
+}
+.fragment.blur.visible {
+  filter: none;
+}
+
+#header-logo {
+  position: absolute;
+  font-family: "Xirod";
+  font-size: 1.86em;
+  line-height: 1.65;
+  color: rgba(164, 162, 162, 0.299);
+  margin: 0.5em;
+}
