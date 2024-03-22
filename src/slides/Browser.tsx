@@ -45,23 +45,21 @@ export function Browser() {
       </section>
       <section>
         <h3>URL entry</h3>
-        <p className="fragment">https://www.lynxmind.com/</p>
+        <p>https://www.lynxmind.com/</p>
       </section>
       <section>
         <h3>DNS lookup</h3>
-        <p className="fragment">Search name and find public IP</p>
+        <p>Search name and find public IP</p>
       </section>
       <section>
         <h3>Server Request</h3>
-        <p className="fragment">
-          Browser sends an HTTP/HTTPS request to the web server
-        </p>
+        <p>Browser sends an HTTP/HTTPS request to the web server</p>
       </section>
       <section>
         <h3>Response and rendering</h3>
         <p className="fragment fade-in-then-semi-out">
-          Browser gets a set of HTML, CSS, JavaScript, Images as well as
-          other resources
+          Browser gets a set of HTML, CSS, JavaScript, Images as well as other
+          resources
         </p>
         <p className="fragment fade-in-then-semi-out">
           Browser calculates the layout of all elements from HTML and CSS
@@ -72,17 +70,15 @@ export function Browser() {
       </section>
       <section>
         <h3>Event handling</h3>
-        <p className="fragment">The browser listens and JavaScript acts</p>
+        <p>The browser listens and JavaScript acts</p>
       </section>
       <section>
         <h3>Networking</h3>
-        <p className="fragment">
-          User navigation and interaction can trigger network requests
-        </p>
+        <p>User navigation and interaction can trigger network requests</p>
       </section>
       <section>
         <h3>Caching</h3>
-        <p className="fragment">Browser stores resource caching for speed</p>
+        <p>Browser stores resource caching for speed</p>
       </section>
     </Section>
   );

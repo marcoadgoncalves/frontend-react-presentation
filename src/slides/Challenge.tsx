@@ -11,10 +11,10 @@ export function Challenge() {
         to open the GitHub page
       </p>
       <p>
-        Slack
+        Slack{" "}
         <code style={{ fontSize: "30px", backgroundColor: "lightcoral" }}>
           #lunchbox_frontend_react
-        </code>
+        </code>{" "}
         for help
       </p>
     </Section>

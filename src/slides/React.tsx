@@ -55,7 +55,7 @@ export function React() {
         <h3>Hooks</h3>
         <p>
           Hooks are functions that let you “hook into” React state and lifecycle
-          features from function components. They were introduced in React 16.8.
+          features from function components.
         </p>
       </section>
     </Section>

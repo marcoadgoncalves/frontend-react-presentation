@@ -7,8 +7,8 @@ export function LunchboxSessions() {
         <h3>Lunchbox sessions</h3>
         <p className="fragment grow">grow together</p>
         <p>share space</p>
-        <p>any topic</p>
-        <p className="fragment shrink">low effort</p>
+        <p>any topic goes</p>
+        <p className="fragment shrink">short duration</p>
       </section>
       <section>
         <h2>Target</h2>
