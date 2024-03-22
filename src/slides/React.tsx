@@ -58,15 +58,6 @@ export function React() {
           features from function components. They were introduced in React 16.8.
         </p>
       </section>
-      <section>
-        <h3>Virtual DOM</h3>
-        <p>
-          The Virtual DOM is a lightweight copy of the real DOM. It is a
-          programming concept where an ideal, or "virtual", representation of a
-          UI is kept in memory and synced with the "real" DOM by a library such
-          as ReactDOM.
-        </p>
-      </section>
     </Section>
   );
 }

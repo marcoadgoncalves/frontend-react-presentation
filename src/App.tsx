@@ -15,6 +15,7 @@ import {
   React,
   ReactDemo,
 } from "./slides";
+import { useCalculateHeight } from "./utils/useCalculateHeight";
 
 function App() {
   const deckDivRef = useRef<HTMLDivElement>(null);
@@ -51,9 +52,10 @@ function App() {
     };
   }, []);
 
-  // <div style={{ height: "105.7rem" }}>
+  const vh = useCalculateHeight();
+
   return (
-    <div style={{ height: "67.5rem" }}>
+    <div style={{ height: vh }}>
       <p id="header-logo">LYNXMIND</p>
       <div className="reveal" ref={deckDivRef}>
         <div className="slides">

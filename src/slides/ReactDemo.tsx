@@ -1,13 +1,13 @@
 import { Section } from "../components/Section";
 
+const NOTE =
+  "Técnica Pomodoro - é um técnica de gestão de tempo e por consequência uma ferramenta de produtividade";
+
 export function ReactDemo() {
   return (
-    <Section>
-      <h2>React demo time</h2>
-      <p>
-        Provide a good example of how react works that shows it's advantages,
-        include consumption of API
-      </p>
+    <Section note={NOTE}>
+      <h2>React demo</h2>
+      <p>Pomodoro app 🍅 🕐</p>
     </Section>
   );
 }

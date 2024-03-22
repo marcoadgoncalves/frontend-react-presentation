@@ -1,8 +1,10 @@
 import { Section } from "../components/Section";
 
+const NOTE = "Hello!";
+
 export function Introduction() {
   return (
-    <Section>
+    <Section note={NOTE}>
       <h2>Hello there 👋</h2>
       <p className="fragment fade-in-then-semi-out">I'm Marco, 30 years old</p>
       <p className="fragment fade-in-then-semi-out">Born in Faro, Algarve</p>

@@ -13,11 +13,7 @@ export function LunchboxSessions() {
       <section>
         <h2>Target</h2>
         <p className="fragment custom blur">anyone</p>
-        <aside className="notes">
-          Note about how the presentation has anyone's knowledge into account 📝
-        </aside>
       </section>
-      <aside className="notes">Shhh, these are your private notes 📝</aside>
       <section data-auto-animate>
         <h2>Lunchbox sessions</h2>
         <p>
